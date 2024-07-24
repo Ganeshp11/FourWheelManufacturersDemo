@@ -9,13 +9,27 @@
 /* Begin PBXBuildFile section */
 		924BCBEC2C4B7A9C00ACE7A0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 924BCBEB2C4B7A9C00ACE7A0 /* AppDelegate.swift */; };
 		924BCBEE2C4B7A9C00ACE7A0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 924BCBED2C4B7A9C00ACE7A0 /* SceneDelegate.swift */; };
-		924BCBF02C4B7A9C00ACE7A0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 924BCBEF2C4B7A9C00ACE7A0 /* ViewController.swift */; };
+		924BCBF02C4B7A9C00ACE7A0 /* CarBrandViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 924BCBEF2C4B7A9C00ACE7A0 /* CarBrandViewController.swift */; };
 		924BCBF32C4B7A9C00ACE7A0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 924BCBF12C4B7A9C00ACE7A0 /* Main.storyboard */; };
 		924BCBF52C4B7A9D00ACE7A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 924BCBF42C4B7A9D00ACE7A0 /* Assets.xcassets */; };
 		924BCBF82C4B7A9D00ACE7A0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 924BCBF62C4B7A9D00ACE7A0 /* LaunchScreen.storyboard */; };
 		924BCC032C4B7A9D00ACE7A0 /* FourWheelManufacturersDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 924BCC022C4B7A9D00ACE7A0 /* FourWheelManufacturersDemoTests.swift */; };
 		924BCC0D2C4B7A9D00ACE7A0 /* FourWheelManufacturersDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 924BCC0C2C4B7A9D00ACE7A0 /* FourWheelManufacturersDemoUITests.swift */; };
 		924BCC0F2C4B7A9D00ACE7A0 /* FourWheelManufacturersDemoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 924BCC0E2C4B7A9D00ACE7A0 /* FourWheelManufacturersDemoUITestsLaunchTests.swift */; };
+		924BCC202C4B7E1100ACE7A0 /* CarBrandModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 924BCC1F2C4B7E1100ACE7A0 /* CarBrandModel.swift */; };
+		924BCC222C4B800800ACE7A0 /* CarBrands.json in Resources */ = {isa = PBXBuildFile; fileRef = 924BCC212C4B800800ACE7A0 /* CarBrands.json */; };
+		924BCC262C4B85BE00ACE7A0 /* FileReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 924BCC252C4B85BE00ACE7A0 /* FileReader.swift */; };
+		924BCC2F2C4B8F5500ACE7A0 /* CarBrandViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 924BCC2E2C4B8F5500ACE7A0 /* CarBrandViewModel.swift */; };
+		924BCC382C4B92D500ACE7A0 /* CarModelList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 924BCC362C4B92D500ACE7A0 /* CarModelList.swift */; };
+		924BCC392C4B92D500ACE7A0 /* CarModelList.xib in Resources */ = {isa = PBXBuildFile; fileRef = 924BCC372C4B92D500ACE7A0 /* CarModelList.xib */; };
+		924BCC3C2C4B92FD00ACE7A0 /* CarBrandsCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 924BCC3A2C4B92FD00ACE7A0 /* CarBrandsCollectionCell.swift */; };
+		924BCC3D2C4B92FD00ACE7A0 /* CarBrandsCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 924BCC3B2C4B92FD00ACE7A0 /* CarBrandsCollectionCell.xib */; };
+		924BCC402C4BA2B000ACE7A0 /* CarBrandHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 924BCC3F2C4BA2B000ACE7A0 /* CarBrandHeader.swift */; };
+		924BCC422C4BA2FD00ACE7A0 /* CarBrandHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = 924BCC412C4BA2FD00ACE7A0 /* CarBrandHeader.xib */; };
+		924BCC452C4BACC300ACE7A0 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 924BCC442C4BACC300ACE7A0 /* Extensions.swift */; };
+		924BCC472C4BCEA800ACE7A0 /* collectionViewLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 924BCC462C4BCEA800ACE7A0 /* collectionViewLayout.swift */; };
+		924BCC4A2C4BEE3800ACE7A0 /* TableHeaderSearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 924BCC482C4BEE3700ACE7A0 /* TableHeaderSearchView.swift */; };
+		924BCC4B2C4BEE3800ACE7A0 /* TableHeaderSearchView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 924BCC492C4BEE3800ACE7A0 /* TableHeaderSearchView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +53,7 @@
 		924BCBE82C4B7A9C00ACE7A0 /* FourWheelManufacturersDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FourWheelManufacturersDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		924BCBEB2C4B7A9C00ACE7A0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		924BCBED2C4B7A9C00ACE7A0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		924BCBEF2C4B7A9C00ACE7A0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		924BCBEF2C4B7A9C00ACE7A0 /* CarBrandViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarBrandViewController.swift; sourceTree = "<group>"; };
 		924BCBF22C4B7A9C00ACE7A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		924BCBF42C4B7A9D00ACE7A0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		924BCBF72C4B7A9D00ACE7A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +63,20 @@
 		924BCC082C4B7A9D00ACE7A0 /* FourWheelManufacturersDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FourWheelManufacturersDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		924BCC0C2C4B7A9D00ACE7A0 /* FourWheelManufacturersDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourWheelManufacturersDemoUITests.swift; sourceTree = "<group>"; };
 		924BCC0E2C4B7A9D00ACE7A0 /* FourWheelManufacturersDemoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourWheelManufacturersDemoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		924BCC1F2C4B7E1100ACE7A0 /* CarBrandModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarBrandModel.swift; sourceTree = "<group>"; };
+		924BCC212C4B800800ACE7A0 /* CarBrands.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = CarBrands.json; sourceTree = "<group>"; };
+		924BCC252C4B85BE00ACE7A0 /* FileReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileReader.swift; sourceTree = "<group>"; };
+		924BCC2E2C4B8F5500ACE7A0 /* CarBrandViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarBrandViewModel.swift; sourceTree = "<group>"; };
+		924BCC362C4B92D500ACE7A0 /* CarModelList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarModelList.swift; sourceTree = "<group>"; };
+		924BCC372C4B92D500ACE7A0 /* CarModelList.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CarModelList.xib; sourceTree = "<group>"; };
+		924BCC3A2C4B92FD00ACE7A0 /* CarBrandsCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarBrandsCollectionCell.swift; sourceTree = "<group>"; };
+		924BCC3B2C4B92FD00ACE7A0 /* CarBrandsCollectionCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CarBrandsCollectionCell.xib; sourceTree = "<group>"; };
+		924BCC3F2C4BA2B000ACE7A0 /* CarBrandHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarBrandHeader.swift; sourceTree = "<group>"; };
+		924BCC412C4BA2FD00ACE7A0 /* CarBrandHeader.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CarBrandHeader.xib; sourceTree = "<group>"; };
+		924BCC442C4BACC300ACE7A0 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		924BCC462C4BCEA800ACE7A0 /* collectionViewLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = collectionViewLayout.swift; sourceTree = "<group>"; };
+		924BCC482C4BEE3700ACE7A0 /* TableHeaderSearchView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableHeaderSearchView.swift; sourceTree = "<group>"; };
+		924BCC492C4BEE3800ACE7A0 /* TableHeaderSearchView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TableHeaderSearchView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +129,9 @@
 			children = (
 				924BCBEB2C4B7A9C00ACE7A0 /* AppDelegate.swift */,
 				924BCBED2C4B7A9C00ACE7A0 /* SceneDelegate.swift */,
-				924BCBEF2C4B7A9C00ACE7A0 /* ViewController.swift */,
-				924BCBF12C4B7A9C00ACE7A0 /* Main.storyboard */,
-				924BCBF42C4B7A9D00ACE7A0 /* Assets.xcassets */,
-				924BCBF62C4B7A9D00ACE7A0 /* LaunchScreen.storyboard */,
+				924BCC292C4B88ED00ACE7A0 /* VehicalListing */,
+				924BCC242C4B852F00ACE7A0 /* Utities */,
+				924BCC2B2C4B89D200ACE7A0 /* Resources */,
 				924BCBF92C4B7A9D00ACE7A0 /* Info.plist */,
 			);
 			path = FourWheelManufacturersDemo;
@@ -125,6 +152,125 @@
 				924BCC0E2C4B7A9D00ACE7A0 /* FourWheelManufacturersDemoUITestsLaunchTests.swift */,
 			);
 			path = FourWheelManufacturersDemoUITests;
+			sourceTree = "<group>";
+		};
+		924BCC1B2C4B7B4A00ACE7A0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				924BCC1F2C4B7E1100ACE7A0 /* CarBrandModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		924BCC1C2C4B7B5100ACE7A0 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				924BCC2E2C4B8F5500ACE7A0 /* CarBrandViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		924BCC1D2C4B7B6900ACE7A0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				924BCBEF2C4B7A9C00ACE7A0 /* CarBrandViewController.swift */,
+				924BCC272C4B888700ACE7A0 /* TableviewCell */,
+				924BCC352C4B92AE00ACE7A0 /* CollectionViewCell */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		924BCC242C4B852F00ACE7A0 /* Utities */ = {
+			isa = PBXGroup;
+			children = (
+				924BCC432C4BACB200ACE7A0 /* Extensions */,
+				924BCC2D2C4B8A9F00ACE7A0 /* Constant */,
+				924BCC2C2C4B8A9D00ACE7A0 /* FileReader */,
+			);
+			path = Utities;
+			sourceTree = "<group>";
+		};
+		924BCC272C4B888700ACE7A0 /* TableviewCell */ = {
+			isa = PBXGroup;
+			children = (
+				924BCC3E2C4BA29300ACE7A0 /* HeaderView */,
+				924BCC342C4B929B00ACE7A0 /* TableViewCell */,
+			);
+			path = TableviewCell;
+			sourceTree = "<group>";
+		};
+		924BCC292C4B88ED00ACE7A0 /* VehicalListing */ = {
+			isa = PBXGroup;
+			children = (
+				924BCC1B2C4B7B4A00ACE7A0 /* Model */,
+				924BCC1D2C4B7B6900ACE7A0 /* View */,
+				924BCC1C2C4B7B5100ACE7A0 /* ViewModel */,
+			);
+			path = VehicalListing;
+			sourceTree = "<group>";
+		};
+		924BCC2B2C4B89D200ACE7A0 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				924BCBF12C4B7A9C00ACE7A0 /* Main.storyboard */,
+				924BCBF42C4B7A9D00ACE7A0 /* Assets.xcassets */,
+				924BCBF62C4B7A9D00ACE7A0 /* LaunchScreen.storyboard */,
+				924BCC212C4B800800ACE7A0 /* CarBrands.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		924BCC2C2C4B8A9D00ACE7A0 /* FileReader */ = {
+			isa = PBXGroup;
+			children = (
+				924BCC252C4B85BE00ACE7A0 /* FileReader.swift */,
+			);
+			path = FileReader;
+			sourceTree = "<group>";
+		};
+		924BCC2D2C4B8A9F00ACE7A0 /* Constant */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Constant;
+			sourceTree = "<group>";
+		};
+		924BCC342C4B929B00ACE7A0 /* TableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				924BCC362C4B92D500ACE7A0 /* CarModelList.swift */,
+				924BCC372C4B92D500ACE7A0 /* CarModelList.xib */,
+			);
+			path = TableViewCell;
+			sourceTree = "<group>";
+		};
+		924BCC352C4B92AE00ACE7A0 /* CollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				924BCC3A2C4B92FD00ACE7A0 /* CarBrandsCollectionCell.swift */,
+				924BCC3B2C4B92FD00ACE7A0 /* CarBrandsCollectionCell.xib */,
+			);
+			path = CollectionViewCell;
+			sourceTree = "<group>";
+		};
+		924BCC3E2C4BA29300ACE7A0 /* HeaderView */ = {
+			isa = PBXGroup;
+			children = (
+				924BCC482C4BEE3700ACE7A0 /* TableHeaderSearchView.swift */,
+				924BCC492C4BEE3800ACE7A0 /* TableHeaderSearchView.xib */,
+				924BCC3F2C4BA2B000ACE7A0 /* CarBrandHeader.swift */,
+				924BCC412C4BA2FD00ACE7A0 /* CarBrandHeader.xib */,
+			);
+			path = HeaderView;
+			sourceTree = "<group>";
+		};
+		924BCC432C4BACB200ACE7A0 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				924BCC442C4BACC300ACE7A0 /* Extensions.swift */,
+				924BCC462C4BCEA800ACE7A0 /* collectionViewLayout.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,7 +378,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				924BCBF82C4B7A9D00ACE7A0 /* LaunchScreen.storyboard in Resources */,
+				924BCC422C4BA2FD00ACE7A0 /* CarBrandHeader.xib in Resources */,
 				924BCBF52C4B7A9D00ACE7A0 /* Assets.xcassets in Resources */,
+				924BCC392C4B92D500ACE7A0 /* CarModelList.xib in Resources */,
+				924BCC4B2C4BEE3800ACE7A0 /* TableHeaderSearchView.xib in Resources */,
+				924BCC222C4B800800ACE7A0 /* CarBrands.json in Resources */,
+				924BCC3D2C4B92FD00ACE7A0 /* CarBrandsCollectionCell.xib in Resources */,
 				924BCBF32C4B7A9C00ACE7A0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -258,8 +409,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				924BCBF02C4B7A9C00ACE7A0 /* ViewController.swift in Sources */,
+				924BCC382C4B92D500ACE7A0 /* CarModelList.swift in Sources */,
+				924BCC202C4B7E1100ACE7A0 /* CarBrandModel.swift in Sources */,
+				924BCBF02C4B7A9C00ACE7A0 /* CarBrandViewController.swift in Sources */,
+				924BCC262C4B85BE00ACE7A0 /* FileReader.swift in Sources */,
+				924BCC4A2C4BEE3800ACE7A0 /* TableHeaderSearchView.swift in Sources */,
+				924BCC2F2C4B8F5500ACE7A0 /* CarBrandViewModel.swift in Sources */,
+				924BCC3C2C4B92FD00ACE7A0 /* CarBrandsCollectionCell.swift in Sources */,
 				924BCBEC2C4B7A9C00ACE7A0 /* AppDelegate.swift in Sources */,
+				924BCC402C4BA2B000ACE7A0 /* CarBrandHeader.swift in Sources */,
+				924BCC452C4BACC300ACE7A0 /* Extensions.swift in Sources */,
+				924BCC472C4BCEA800ACE7A0 /* collectionViewLayout.swift in Sources */,
 				924BCBEE2C4B7A9C00ACE7A0 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -445,11 +605,13 @@
 				DEVELOPMENT_TEAM = K44L3R6UT8;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = FourWheelManufacturersDemo/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.business";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -457,9 +619,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.FourWheelManufacturersDemo.FourWheelManufacturersDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -473,11 +638,13 @@
 				DEVELOPMENT_TEAM = K44L3R6UT8;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = FourWheelManufacturersDemo/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.business";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -485,9 +652,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.FourWheelManufacturersDemo.FourWheelManufacturersDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

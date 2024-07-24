@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "EBD9B957-60B8-42B6-867F-3772604FD7F9"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3D9B58C6-2250-419E-BB77-16733A02210B"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FourWheelManufacturersDemo/View/CarBrandViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "10"
+            endingLineNumber = "10"
+            landmarkName = "CarBrandViewController"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E36D58D4-262E-44B0-B85E-EFB7952063F1"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FourWheelManufacturersDemo/VehicalListing/View/CustomCells/TableViewCell/CarModelList.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "30"
+            endingLineNumber = "30"
+            landmarkName = "setupCell()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "E36D58D4-262E-44B0-B85E-EFB7952063F1 - 7fbd190ea7d26c58"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FourWheelManufacturersDemo.CarModelList.setupCell() -&gt; ()"
+                  moduleName = "FourWheelManufacturersDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/neosoft/Desktop/FourWheelManufacturersDemo/FourWheelManufacturersDemo/VehicalListing/View/CustomCells/TableViewCell/CarModelList.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "116">
+               </Location>
+               <Location
+                  uuid = "E36D58D4-262E-44B0-B85E-EFB7952063F1 - 7fbd190ea7d26c58"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FourWheelManufacturersDemo.CarModelList.setupCell() -&gt; ()"
+                  moduleName = "FourWheelManufacturersDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/neosoft/Desktop/FourWheelManufacturersDemo/FourWheelManufacturersDemo/VehicalListing/View/CustomCells/TableViewCell/CarModelList.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "104">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

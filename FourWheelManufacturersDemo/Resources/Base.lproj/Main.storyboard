@@ -19,21 +19,39 @@
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Background" translatesAutoresizingMaskIntoConstraints="NO" id="Nsn-we-pKh">
                                 <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </imageView>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" allowsSelection="NO" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" estimatedSectionHeaderHeight="-1" sectionFooterHeight="28" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="ynZ-ov-t28">
+                            <tableView opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" allowsSelection="NO" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" estimatedSectionHeaderHeight="-1" sectionFooterHeight="28" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="ynZ-ov-t28">
                                 <rect key="frame" x="0.0" y="59" width="393" height="793"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="separatorColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="sectionIndexColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="sectionIndexBackgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="sectionIndexTrackingBackgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </tableView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8bA-sv-LJb">
+                                <rect key="frame" x="323" y="748" width="50" height="50"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="HNt-ug-ZyJ"/>
+                                    <constraint firstAttribute="width" constant="50" id="dgr-ZK-3pr"/>
+                                </constraints>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" image="AddButton">
+                                    <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="small"/>
+                                </state>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="ynZ-ov-t28" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="2NR-fH-N0M"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="8bA-sv-LJb" secondAttribute="trailing" constant="20" id="8W7-y9-4ZA"/>
                             <constraint firstItem="Nsn-we-pKh" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="9we-RF-4s0"/>
                             <constraint firstAttribute="bottom" secondItem="Nsn-we-pKh" secondAttribute="bottom" id="DK0-6n-NbU"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="8bA-sv-LJb" secondAttribute="bottom" constant="20" id="Sdz-I7-W9d"/>
                             <constraint firstAttribute="bottom" secondItem="ynZ-ov-t28" secondAttribute="bottom" id="Yzy-eH-4E8"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ynZ-ov-t28" secondAttribute="trailing" id="dcS-RQ-31d"/>
                             <constraint firstItem="Nsn-we-pKh" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="geh-rc-ha2"/>
@@ -42,6 +60,7 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="bottomSheetBtn" destination="8bA-sv-LJb" id="dEJ-iK-VPx"/>
                         <outlet property="carBrandTableView" destination="ynZ-ov-t28" id="gVq-Hm-hsQ"/>
                     </connections>
                 </viewController>
@@ -51,6 +70,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="AddButton" width="64" height="64"/>
         <image name="Background" width="736" height="1308"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>

@@ -24,7 +24,6 @@ class CarBrandsCollectionCell: UICollectionViewCell {
    
     
     private func setupCell() {
-        let name = strImage ?? ""
-        brandImage.image = UIImage(named: name)
+        brandImage.image = UIImage(named:  strImage ?? "Scorpio")
     }
 }

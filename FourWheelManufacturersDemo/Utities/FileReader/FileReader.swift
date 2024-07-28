@@ -7,19 +7,19 @@
 
 import Foundation
 
-class FileReader {
-    static func decode<T: Decodable>(fromFile fileName: String, type: T.Type) -> T? {
-        if let url = Bundle.main.url(forResource: fileName, withExtension: "json") {
-                 do {
-                     let data = try Data(contentsOf: url)
-                     let decoder = JSONDecoder()
-                     let decodedData = try decoder.decode(T.self, from: data)
-                     return decodedData
-                 } catch {
-                     print("Failed to load or parse JSON: \(error)")
-                 }
-             }
-             return nil
+struct FileReader {
+    func decode<T: Decodable>(fromFile fileName: String, type: String) throws -> T {
+        guard let url = Bundle.main.url(forResource: fileName, withExtension: type) else {
+            throw FileReaderError.invalidPath
+         }
+        do {
+            let data = try Data(contentsOf: url)
+            let response = try JSONDecoder().decode(T.self, from: data)
+            return  response
+        } catch let error {
+            print(error)
+            throw FileReaderError.contentError
+        }
     }
 }
 

@@ -2,7 +2,7 @@
 //  TableHeaderSearchView.swift
 //  MachineTestIlaBank
 //
-//  Created by Ashwini Mukade on 24/06/24.
+//  Created by Neosoft on 24/06/24.
 //
 
 import UIKit
@@ -21,7 +21,7 @@ class TableHeaderSearchView: UITableViewHeaderFooterView {
         searchBar.barTintColor = UIColor.black
         let color = UIColor.gray
         searchBar.searchTextField.textColor = UIColor.black
-         searchBar.searchTextField.attributedPlaceholder =  NSAttributedString.init(string: "Search Car here", attributes: [NSAttributedString.Key.foregroundColor: color])
+        searchBar.searchTextField.attributedPlaceholder =  NSAttributedString.init(string: StringConstants.searchPlaceholder, attributes: [NSAttributedString.Key.foregroundColor: color])
         searchBar.searchTextField.backgroundColor = UIColor.white
         searchBar.searchTextField.leftView?.tintColor = color
         UIBarButtonItem.appearance(whenContainedInInstancesOf: [UISearchBar.self]).setTitleTextAttributes([.foregroundColor: UIColor.white], for: .normal)

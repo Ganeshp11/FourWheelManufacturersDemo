@@ -16,9 +16,9 @@ enum FileReaderError: LocalizedError {
         case .contentError,
                 .invalidPath,
                 .noData:
-            return "No Cars Found"
+            return StringConstants.noData
         case .noSearchItem:
-            return "No Match Found"
+            return StringConstants.noMatch
         }
     }
 }

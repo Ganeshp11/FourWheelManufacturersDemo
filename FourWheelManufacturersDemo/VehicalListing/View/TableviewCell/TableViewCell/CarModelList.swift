@@ -21,9 +21,9 @@ class CarModelList: UITableViewCell {
     }
     
     func setData(car: Car) {
-        cellBackground.setCorner(radius: 8, borderWidth: 1, borderColor: .lightText)
+        cellBackground.setCorner(radius: SizeConstants.radius, borderWidth: SizeConstants.borderWidth, borderColor: .lightText)
         carName.text = car.name ?? ""
-        manufactureName.text = "Rs. " + (car.price ?? "")
+        manufactureName.text = StringConstants.rs + (car.price ?? "")
         carImage.image = UIImage(named: car.imageUrl ?? "")
     }
 }

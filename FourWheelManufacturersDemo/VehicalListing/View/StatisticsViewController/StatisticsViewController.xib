@@ -24,7 +24,7 @@
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="I1X-MK-aJu">
-                    <rect key="frame" x="20" y="20" width="481" height="240"/>
+                    <rect key="frame" x="20" y="50" width="481" height="240"/>
                     <subviews>
                         <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" alignment="center" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="GjX-Co-tLt">
                             <rect key="frame" x="20" y="40" width="441" height="180"/>
@@ -36,7 +36,7 @@
                                     <nil key="highlightedColor"/>
                                 </label>
                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gsd-JF-bFE">
-                                    <rect key="frame" x="199.33333333333334" y="47.666666666666671" width="42.666666666666657" height="37.333333333333329"/>
+                                    <rect key="frame" x="199.33333333333334" y="47.666666666666657" width="42.666666666666657" height="37.333333333333343"/>
                                     <fontDescription key="fontDescription" type="system" weight="medium" pointSize="17"/>
                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     <nil key="highlightedColor"/>
@@ -71,7 +71,7 @@
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
             <color key="backgroundColor" red="0.14117647058823529" green="0.19607843137254902" blue="0.25490196078431371" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
             <constraints>
-                <constraint firstItem="I1X-MK-aJu" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="20" id="VPp-S2-hVB"/>
+                <constraint firstItem="I1X-MK-aJu" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="50" id="VPp-S2-hVB"/>
                 <constraint firstItem="I1X-MK-aJu" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="20" id="cea-sx-dq9"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="I1X-MK-aJu" secondAttribute="trailing" constant="20" id="ygR-DI-HXw"/>
             </constraints>

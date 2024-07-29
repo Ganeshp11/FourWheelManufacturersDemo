@@ -20,8 +20,9 @@ class CarBrandViewModel: CarBrandViewModelProtocol   {
     
     func getVehicles() {
         do {
-            let response:CarBrandResponse =  try fileReader.decode(fromFile: "CarBrands", type: "json")
+            let response:CarBrandResponse =  try fileReader.decode(fromFile: StringConstants.fileName, type: StringConstants.type)
             brands = response.brands ?? []
+            selectedBrand = brands.first
             setCarData()
         } catch (let error) {
             delegate?.didFailVehicleLoading(error: error.localizedDescription)
@@ -50,7 +51,6 @@ class CarBrandViewModel: CarBrandViewModelProtocol   {
     }
     
     private func setCarData() {
-        selectedBrand = brands.first
         cars = selectedBrand?.cars ?? []
         updateCarData()
     }

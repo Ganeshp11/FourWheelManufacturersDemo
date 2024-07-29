@@ -33,6 +33,9 @@
 		92E1BEB02C523117003382DA /* StatisticsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E1BEAE2C523117003382DA /* StatisticsViewController.swift */; };
 		92E1BEB12C523117003382DA /* StatisticsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 92E1BEAF2C523117003382DA /* StatisticsViewController.xib */; };
 		92E1BEBE2C536178003382DA /* CarDash.png in Resources */ = {isa = PBXBuildFile; fileRef = 92E1BEBD2C536178003382DA /* CarDash.png */; };
+		92E39AAF2C57A6E600F0012F /* UITableViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E39AAE2C57A6E600F0012F /* UITableViewExtension.swift */; };
+		92E39AB12C57ABFA00F0012F /* StringConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E39AB02C57ABFA00F0012F /* StringConstants.swift */; };
+		92E39AB32C57B20700F0012F /* SizeConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E39AB22C57B20700F0012F /* SizeConstants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -83,6 +86,9 @@
 		92E1BEAE2C523117003382DA /* StatisticsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticsViewController.swift; sourceTree = "<group>"; };
 		92E1BEAF2C523117003382DA /* StatisticsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StatisticsViewController.xib; sourceTree = "<group>"; };
 		92E1BEBD2C536178003382DA /* CarDash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CarDash.png; sourceTree = "<group>"; };
+		92E39AAE2C57A6E600F0012F /* UITableViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITableViewExtension.swift; sourceTree = "<group>"; };
+		92E39AB02C57ABFA00F0012F /* StringConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringConstants.swift; sourceTree = "<group>"; };
+		92E39AB22C57B20700F0012F /* SizeConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SizeConstants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -214,6 +220,8 @@
 			children = (
 				92E1BEA22C515ECB003382DA /* FileReaderError.swift */,
 				92E1BEAA2C521EE0003382DA /* CellIdentifiers.swift */,
+				92E39AB02C57ABFA00F0012F /* StringConstants.swift */,
+				92E39AB22C57B20700F0012F /* SizeConstants.swift */,
 			);
 			path = Constant;
 			sourceTree = "<group>";
@@ -253,6 +261,7 @@
 			isa = PBXGroup;
 			children = (
 				924BCC442C4BACC300ACE7A0 /* UIView.swift */,
+				92E39AAE2C57A6E600F0012F /* UITableViewExtension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -415,12 +424,15 @@
 			files = (
 				924BCC382C4B92D500ACE7A0 /* CarModelList.swift in Sources */,
 				92E1BEA32C515ECB003382DA /* FileReaderError.swift in Sources */,
+				92E39AB12C57ABFA00F0012F /* StringConstants.swift in Sources */,
 				924BCC202C4B7E1100ACE7A0 /* CarBrandModel.swift in Sources */,
 				92E1BEB02C523117003382DA /* StatisticsViewController.swift in Sources */,
 				92E1BEA72C517672003382DA /* CarBrandViewController+DataSourceDelegate.swift in Sources */,
 				924BCBF02C4B7A9C00ACE7A0 /* CarBrandViewController.swift in Sources */,
 				924BCC262C4B85BE00ACE7A0 /* FileReader.swift in Sources */,
 				924BCC4A2C4BEE3800ACE7A0 /* TableHeaderSearchView.swift in Sources */,
+				92E39AAF2C57A6E600F0012F /* UITableViewExtension.swift in Sources */,
+				92E39AB32C57B20700F0012F /* SizeConstants.swift in Sources */,
 				924BCC2F2C4B8F5500ACE7A0 /* CarBrandViewModel.swift in Sources */,
 				92E1BEA52C516051003382DA /* VehicleBrandProtocol.swift in Sources */,
 				92E1BEAB2C521EE0003382DA /* CellIdentifiers.swift in Sources */,

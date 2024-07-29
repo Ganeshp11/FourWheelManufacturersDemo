@@ -53,9 +53,9 @@ extension CarBrandHeader: UICollectionViewDelegate, UICollectionViewDataSource {
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: CellIdentifiers.collectionViewCell, for: indexPath) as! CarBrandsCollectionCell
-        cell.strImage = brandList[indexPath.row].imageUrl
-        return cell
+        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: CellIdentifiers.collectionViewCell, for: indexPath) as? CarBrandsCollectionCell
+        cell?.strImage = brandList[indexPath.row].imageUrl
+        return cell ?? UICollectionViewCell()
     }
     
     func scrollViewDidScroll(_ scrollView: UIScrollView) {

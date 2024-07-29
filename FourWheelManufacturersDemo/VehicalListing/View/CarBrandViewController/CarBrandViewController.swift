@@ -87,7 +87,6 @@ extension CarBrandViewController: CarBrandViewModelDelegate {
     }
     
     func didFailVehicleLoading(error: String) {
-        //need to show error
         noDataLabel.text = error
         carBrandTableView.backgroundView = noDataLabel
         self.carBrandTableView.reloadData()

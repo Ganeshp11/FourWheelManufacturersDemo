@@ -20,13 +20,12 @@ class StatisticsViewController: UIViewController {
         super.viewDidLoad()
         setupViews()
     }
-    
     func configure(modelCounts: [String: Int], characterCounts: [CharacterCount]) {
         self.modelCounts = modelCounts
         self.characterCounts = characterCounts
     }
     func setupViews() {
-        backgroundView.setCorner(radius: 10, borderWidth: 0.5, borderColor: .lightGray)
+        backgroundView.setCorner(radius: SizeConstants.radius, borderWidth: SizeConstants.borderWidth, borderColor: .lightGray)
         brandNameLabel.text = modelCounts.map { "\($0.key): \($0.value) Models" }.joined(separator: "\n")
         
         for (index, label) in CharacterCountLabel.enumerated() {
@@ -34,7 +33,7 @@ class StatisticsViewController: UIViewController {
                 let characterCount = characterCounts[index]
                 label.text = "\(characterCount.character ?? " ") :  \(characterCount.count ?? 0)"
             } else {
-                label.text = "N/A"
+                label.text = StringConstants.notApplicable
             }
         }
     }
